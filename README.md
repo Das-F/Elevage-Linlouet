@@ -1,16 +1,17 @@
-# React + Vite
+# Élevage Linlouet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site d'accueil pour le projet Élevage Linlouet, construit avec React et Vite.
 
-Currently, two official plugins are available:
+## Démarrage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Installer les dépendances: `npm install`
+- Lancer le serveur de développement: `npm run dev`
+- Ouvrir l’application dans le navigateur avec l’URL affichée par Vite
 
-## React Compiler
+## Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/main.jsx` : point d’entrée de l’application
+- `src/App.jsx` : page d’accueil principale
+- `src/App.css` : styles de la page d’accueil
+- `src/index.css` : styles globaux
+- `public/` : ressources statiques
