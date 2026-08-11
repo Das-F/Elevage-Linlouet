@@ -1,3 +1,5 @@
+/* Hero section */
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -62,4 +64,57 @@
   color: var(--nav-text);
   text-decoration: none;
   font-size: 1.3rem;
+}
+
+/* About section */
+.about-section {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-title h2 {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  color: var(--accent-text);
+  margin: 10px 0 40px 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.about-image {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 820px;
+  font-size: 1.2rem;
+  color: var(--text);
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.about-text-intro {
+  margin: 0 0 20px 0;
 }
