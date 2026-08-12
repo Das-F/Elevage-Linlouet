@@ -94,6 +94,17 @@ function Home() {
         </div>
       </section>
 
+      <section className="contact-section">
+        <div className="contact-content">
+          <h2>Venir à Linlouët</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec tempor lorem, non tempus nulla. Nunc accumsan nisi eget mi eleifend euismod.</p>
+          <div className="contact-image-container">
+            <img className="contact-img" src="/public/assets/images/contact/st michel.jpg" alt="Portrait des éleveurs de Linlouet" />
+          </div>
+          <div className="contact-button">Préparer une visite</div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
