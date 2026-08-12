@@ -6,9 +6,15 @@ function Contact() {
   return (
     <div>
       <Header />
-      <section className="contact-section">
-        <div className="contact-title">
-          <h2>Contactez-nous</h2>
+      <section className="contact-page-section">
+        <div className="hero-contact-content">
+          <div className="hero-contact"></div>
+          <div className="contact-img-container">
+            <img className="contact-img" src="/public/assets/images/contact/phare.jpg" alt="Phare du Finistère" />
+            <div className="contact-title-overlay">
+              <h2>Venir à Linlouët</h2>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
