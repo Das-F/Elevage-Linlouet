@@ -39,6 +39,61 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section className="horses-section">
+        <div className="horses-title">
+          <h2>Nos chevaux</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed pretium enim, et gravida turpis.</p>
+        </div>
+        <div className="horses-cards">
+          <div className="horse-card">
+            <img className="horse-img" src="/public/assets/images/horses/Boheme.jpg" alt="Cheval 1" />
+            <div className="horse-text">
+              <h3>Nom du cheval 1</h3>
+              <p>Description du cheval 1...</p>
+              <div className="horses-button">Découvrir</div>
+            </div>
+          </div>
+          <div className="horse-card">
+            <img className="horse-img" src="/public/assets/images/horses/xaman.jpg" alt="Cheval 1" />
+            <div className="horse-text">
+              <h3>Nom du cheval 2</h3>
+              <p>Description du cheval 2...</p>
+              <div className="horses-button">Découvrir</div>
+            </div>
+          </div>
+          <div className="horse-card">
+            <img className="horse-img" src="/public/assets/images/horses/vermeer.jpg" alt="Cheval 1" />
+            <div className="horses-text">
+              <h3>Nom du cheval 3</h3>
+              <p>Description du cheval 3...</p>
+              <div className="horses-button">Découvrir</div>
+            </div>
+          </div>
+        </div>
+        <div className="horses-title">
+          <h3>Notre philosophie de selection</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec tempor lorem, non tempus nulla. Nunc accumsan nisi eget mi eleifend euismod. Vestibulum sed imperdiet dolor. Aliquam gravida, ante in sollicitudin semper, turpis ante interdum nisi, vitae euismod augue eros sed lacus. Ut pharetra efficitur dictum. Morbi auctor sem quis elit ullamcorper porta. In a aliquet orci. Integer eleifend ipsum lorem, tincidunt venenatis ante finibus sed. Maecenas accumsan tincidunt justo, non feugiat tortor ullamcorper et. Vivamus a vulputate sem. Cras a quam scelerisque, dapibus mi vel, aliquam est. Aenean semper rutrum felis. Vestibulum cursus tortor malesuada eros finibus, nec tincidunt purus maximus.</p>
+        </div>
+      </section>
+
+      <section className="news-section">
+        <div className="news-content">
+          <h2>La Vie à Linlouët</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="news-cards">
+            <div className="news-card">
+              <img className="news-img" src="/public/assets/images/news/RS-1.png" alt="Cheval 1" />
+              <div className="news-button">En voir plus</div>
+            </div>
+            <div className="news-card">
+              <img className="news-img" src="/public/assets/images/news/RS-2.png" alt="Cheval 1" />
+              <div className="news-button">En voir plus</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
