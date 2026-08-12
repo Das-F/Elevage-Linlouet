@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Layouts/Header/Header";
 import Footer from "../components/Layouts/Footer/Footer";
 import "./Home.css";
@@ -15,9 +16,9 @@ function Home() {
             <h1>Bienvenue à Linlouët</h1>
             <h2>Elever des Pur-Sangs Lusitaniens en Bretagne, entre terre, mer et traditions vivantes.</h2>
             <div className="hero-button">
-              <a href="/venir-a-linlouet" className="hero-button-link">
+              <Link to="/contact" className="contact-button">
                 Préparer une visite
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -101,7 +102,9 @@ function Home() {
           <div className="contact-image-container">
             <img className="contact-img" src="/public/assets/images/contact/st michel.jpg" alt="Portrait des éleveurs de Linlouet" />
           </div>
-          <div className="contact-button">Préparer une visite</div>
+          <Link to="/contact" className="contact-button">
+            Préparer une visite
+          </Link>
         </div>
       </section>
 
