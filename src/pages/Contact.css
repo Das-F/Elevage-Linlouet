@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto 80px auto;
-  padding: 40px 20px;
   text-align: center;
   background-color: var(--bg);
 }
@@ -37,6 +36,7 @@
   font-family: var(--font-primary);
   font-size: 2.5rem;
   color: var(--text);
+  margin: 10px 0;
 }
 
 .contact-text h3 {
