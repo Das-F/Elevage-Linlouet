@@ -38,3 +38,22 @@
   font-size: 2.5rem;
   color: var(--text);
 }
+
+.contact-text h3 {
+  font-family: var(--font-primary);
+  font-size: 2.1rem;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1000px;
+  width: min(90%, 1000px);
+  margin: 40px auto;
+}
