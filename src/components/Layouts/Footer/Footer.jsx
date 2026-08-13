@@ -7,10 +7,12 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo-section">
-          <img className="footer-logo" src="/assets/Logo-linlouet.jpg" alt="Logo de l'Élevage de Linlouet" />
+          <Link to="/" className="footer-link">
+            <img className="footer-logo" src="/assets/Logo-linlouet.jpg" alt="Logo de l'Élevage de Linlouet" />
+          </Link>
         </div>
         <div className="footer-links">
-          <Link to="/accueil" className="footer-link">
+          <Link to="/" className="footer-link">
             Accueil
           </Link>
           <Link to="/chevaux" className="footer-link">
@@ -19,7 +21,7 @@ function Footer() {
           <Link to="/galerie" className="footer-link">
             Galerie
           </Link>
-          <Link to="/venirlinlouet" className="footer-link">
+          <Link to="/contact" className="footer-link">
             Venir à Linlouët
           </Link>
           <p className="footer-contact">
