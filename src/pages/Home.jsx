@@ -16,7 +16,7 @@ function Home() {
             <h1>Bienvenue à Linlouët</h1>
             <h2>Elever des Pur-Sangs Lusitaniens en Bretagne, entre terre, mer et traditions vivantes.</h2>
             <div className="hero-button">
-              <Link to="/contact" className="contact-button">
+              <Link to="/contact" className="hero-button">
                 Préparer une visite
               </Link>
             </div>
